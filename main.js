@@ -165,14 +165,14 @@ const About = () => {
                                 <i className="fas fa-brain"></i>
                                 <div>
                                     <h4>Machine Learning & Deep Learning</h4>
-                                    <p>Discriminative Modelling, Generative Modelling, Computer Vision, Ensemble learning, reinforcement learning</p>
+                                    <p>Tabular Modelling, Time Series Modelling, Computer Vision, Ensemble learning, reinforcement learning</p>
                                 </div>
                             </div>
                             <div className="highlight-item">
                                 <i className="fas fa-microscope"></i>
                                 <div>
                                     <h4>Research & Publications</h4>
-                                    <p>6 publications in top journals (ACM Health, IEEE Access) and international conferences (IEEE PEDS, ACM PETRA, etc.)</p>
+                                    <p>Publications in top journals (ACM Health, IEEE Access) and international conferences (IEEE PEDS 2025, ACM PETRA 2024, ICCCNT 2025, etc.)</p>
                                 </div>
                             </div>
                             <div className="highlight-item">
@@ -194,13 +194,15 @@ const About = () => {
 const Skills = () => {
     const skillCategories = [
         {
-            title: 'AI/ML Frameworks',
+            title: 'Frameworks',
             icon: 'fa-brain',
             skills: [
                 { name: 'TensorFlow', level: 90 },
                 { name: 'PyTorch', level: 80 },
                 { name: 'Keras', level: 90 },
-                { name: 'Scikit-learn', level: 96 }
+                { name: 'Scikit-learn', level: 96 },
+                { name: 'Streamlit', level: 87 },
+                { name: 'Flask', level: 80 }
             ]
         },
         {
@@ -208,7 +210,6 @@ const Skills = () => {
             icon: 'fa-flask',
             skills: [
                 { name: 'Signal Processing', level: 90 },
-                { name: 'Feature Engineering', level: 92 },
                 { name: 'Statistical Analysis', level: 88 },
                 { name: 'Internet of Things', level: 87 },
                 { name: 'Biomedical Analysis', level: 90 },
@@ -222,10 +223,10 @@ const Skills = () => {
             skills: [
                 { name: 'Python', level: 95 },
                 { name: 'C++', level: 82 },
+                { name: 'HTML', level: 90 },
+                { name: 'CSS', level: 90 }
                 { name: 'Git/GitHub', level: 88 },
                 { name: 'LaTeX', level: 85 },
-                { name: 'Streamlit', level: 87 },
-                { name: 'Flask', level: 80 }
             ]
         }
     ];
@@ -286,7 +287,7 @@ const Experience = () => {
             period: 'Jan 2024 - Mar 2025',
             location: 'IIT Mandi, India',
             description: [
-                'Designed AI-enabled IoT device for non-invasive diabetes classification achieving 97.6% diagnostic accuracy',
+                'Designed AI-enabled IoT device for non-invasive diabetes classification, achieving 97.6% diagnostic accuracy',
                 'Developed comprehensive signal processing algorithms and ML pipeline using Python, Scikit-learn, and TensorFlow',
                 'Extended diagnostic capabilities to multi-stage diabetes prediction (90% accuracy) and blood glucose estimation (17 mg/dL MAE)',
                 'Developed Weighted Average Regressor for blood pressure prediction (<8 mmHg error) and HbA1c prediction (83% accuracy)',
@@ -418,7 +419,7 @@ const Publications = () => {
         {
             title: 'DiaComor: A Culturally-Tailored Psychometric Tool for Diabetes and Comorbidity Assessment in Rural Himachal Pradesh',
             authors: 'Sharma, S., Sharma, R., Bhavsar, A., & Dutt, V.',
-            venue: 'Conference Publication',
+            venue: 'Proceedings of the 10th International Conference on Information and Communication Technology for Competitive Strategies (ICTCS-2025)',
             year: '2025',
             doi: 'Accepted for Publication',
             type: 'conference',
