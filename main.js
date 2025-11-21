@@ -148,7 +148,7 @@ const About = () => {
                 <div className="about-content">
                     <div className="about-text">
                         <p className="about-intro">
-                            Research Scholar at IIT Mandi working on intelligent healthcare systems through computational methods.
+                            Research Scholar at IIT Mandi, working on intelligent healthcare systems through computational methods.
                         </p>
                         <p>
                             My research focuses on developing AI-enabled IoT devices for non-invasive health diagnostics, 
@@ -165,14 +165,14 @@ const About = () => {
                                 <i className="fas fa-brain"></i>
                                 <div>
                                     <h4>Machine Learning & Deep Learning</h4>
-                                    <p>Neural networks, ensemble methods, reinforcement learning</p>
+                                    <p>Discriminative Modelling, Generative Modelling, Computer Vision, Ensemble learning, reinforcement learning</p>
                                 </div>
                             </div>
                             <div className="highlight-item">
                                 <i className="fas fa-microscope"></i>
                                 <div>
                                     <h4>Research & Publications</h4>
-                                    <p>6 publications in ACM, IEEE, international conferences</p>
+                                    <p>6 publications in top journals (ACM Health, IEEE Access) and international conferences (IEEE PEDS, ACM PETRA, etc.)</p>
                                 </div>
                             </div>
                             <div className="highlight-item">
