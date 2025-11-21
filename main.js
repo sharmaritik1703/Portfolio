@@ -1,4 +1,5 @@
 const { useState, useEffect } = React;
+const { createRoot } = ReactDOM;
 
 // Navigation Component
 const Navigation = ({ activeSection, setActiveSection }) => {
@@ -727,6 +728,6 @@ const App = () => {
 };
 
 // Render the app
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = createRoot(document.getElementById('root'));
 root.render(<App />);
 
