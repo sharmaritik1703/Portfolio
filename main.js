@@ -200,9 +200,7 @@ const Skills = () => {
                 { name: 'TensorFlow', level: 90 },
                 { name: 'PyTorch', level: 80 },
                 { name: 'Keras', level: 90 },
-                { name: 'Scikit-learn', level: 96 },
-                { name: 'Deep Learning', level: 90 },
-                { name: 'Reinforcement Learning', level: 80 }
+                { name: 'Scikit-learn', level: 96 }
             ]
         },
         {
@@ -212,9 +210,10 @@ const Skills = () => {
                 { name: 'Signal Processing', level: 90 },
                 { name: 'Feature Engineering', level: 92 },
                 { name: 'Statistical Analysis', level: 88 },
-                { name: 'IoT Systems', level: 87 },
+                { name: 'Internet of Things', level: 87 },
                 { name: 'Biomedical Analysis', level: 90 },
-                { name: 'Model Development', level: 93 }
+                { name: 'Machine Learning', level: 93 },
+                { name: 'Deep Learning', level: 85 }
             ]
         },
         {
