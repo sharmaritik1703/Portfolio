@@ -224,9 +224,9 @@ const Skills = () => {
                 { name: 'Python', level: 95 },
                 { name: 'C++', level: 82 },
                 { name: 'HTML', level: 90 },
-                { name: 'CSS', level: 90 }
+                { name: 'CSS', level: 90 },
                 { name: 'Git/GitHub', level: 88 },
-                { name: 'LaTeX', level: 85 },
+                { name: 'LaTeX', level: 85 }
             ]
         }
     ];
