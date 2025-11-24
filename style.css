@@ -69,7 +69,7 @@ body {
 }
 
 .nav-logo {
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 700;
     background: var(--gradient-1);
     -webkit-background-clip: text;
@@ -171,14 +171,14 @@ body {
 }
 
 .hero-greeting {
-    font-size: 20px;
+    font-size: 16px;
     color: var(--primary-color);
     margin-bottom: 10px;
     font-weight: 500;
 }
 
 .hero-name {
-    font-size: 72px;
+    font-size: 48px;
     font-weight: 700;
     margin-bottom: 10px;
     background: var(--gradient-1);
@@ -189,7 +189,7 @@ body {
 }
 
 .hero-role-container {
-    font-size: 32px;
+    font-size: 22px;
     color: var(--text-secondary);
     margin-bottom: 20px;
     min-height: 50px;
@@ -210,7 +210,7 @@ body {
 }
 
 .hero-description {
-    font-size: 18px;
+    font-size: 15px;
     color: var(--text-muted);
     margin-bottom: 40px;
     line-height: 1.8;
@@ -308,7 +308,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 20px;
-    font-size: 120px;
+    font-size: 100px;
     color: white;
     box-shadow: 0 20px 60px rgba(102, 126, 234, 0.4);
     position: relative;
@@ -374,13 +374,13 @@ body {
 }
 
 .scholar-title {
-    font-size: 32px;
+    font-size: 22px;
     font-weight: 700;
     letter-spacing: 2px;
 }
 
 .scholar-subtitle {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     opacity: 0.95;
     letter-spacing: 1px;
@@ -422,7 +422,7 @@ section {
 }
 
 .section-title {
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 700;
     text-align: center;
     margin-bottom: 15px;
@@ -435,7 +435,7 @@ section {
 .section-subtitle {
     text-align: center;
     color: var(--text-muted);
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 60px;
 }
 
@@ -450,7 +450,7 @@ section {
 }
 
 .about-intro {
-    font-size: 24px;
+    font-size: 18px;
     color: var(--text-secondary);
     margin-bottom: 20px;
     font-weight: 500;
@@ -458,7 +458,7 @@ section {
 
 .about-text p {
     color: var(--text-muted);
-    font-size: 17px;
+    font-size: 16px;
     margin-bottom: 20px;
     line-height: 1.8;
 }
@@ -597,7 +597,7 @@ section {
 }
 
 .subsection-title {
-    font-size: 28px;
+    font-size: 22px;
     color: var(--text-primary);
     margin-bottom: 40px;
     display: flex;
@@ -663,7 +663,7 @@ section {
 }
 
 .timeline-header h4 {
-    font-size: 20px;
+    font-size: 18px;
     color: var(--text-primary);
 }
 
@@ -957,7 +957,7 @@ section {
 }
 
 .project-content h3 {
-    font-size: 22px;
+    font-size: 20px;
     color: var(--text-primary);
     margin-bottom: 12px;
 }
@@ -1219,7 +1219,7 @@ section {
     }
 
     .hero-name {
-        font-size: 42px;
+        font-size: 40px;
     }
 
     .hero-role-container {
@@ -1251,7 +1251,7 @@ section {
 
 @media (max-width: 480px) {
     .hero-name {
-        font-size: 36px;
+        font-size: 34px;
     }
 
     .hero-role-container {
